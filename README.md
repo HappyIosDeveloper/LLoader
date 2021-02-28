@@ -9,7 +9,8 @@ How to use it?
 
 Just add the LLoader.swift to your project, then you can use it programmatically or use it with storayboard like so.
 
-class ViewController: UIViewController {
+
+    class ViewController: UIViewController {
 
     @IBOutlet weak var smallLoader: LLoader!
     @IBOutlet weak var bigLoader: LLoader!
@@ -36,5 +37,5 @@ class ViewController: UIViewController {
         view.addSubview(loader)
         loader.isAnimating = true
     }
-}
+    }
 
