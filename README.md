@@ -2,7 +2,7 @@
 It's a simple but famous loader in a super light way!
 
 
-![Alt Text](https://github.com/UzumakiAlfredo/Lloader/blob/master/Screen.gif)
+![Alt Text](https://github.com/UzumakiAlfredo/Lloader/blob/main/Screen.gif)
 
 
 How to use it?
