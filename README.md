@@ -6,7 +6,7 @@ It's a simple but famous loader in a super light way!
 
 How to use it?
 
-![](Screen.gif
+ ![ Alt text](Screen. gif) / ! [](Screen. gif)
 
 Just add the LLoader.swift to your project, then you can use it programmatically or use it with storayboard like so.
 
