@@ -9,7 +9,7 @@ import UIKit
 
 class LLoader: UIView {
     
-    public var color = UIColor.red
+    public var color = UIColor.orange
     public var isAnimating = true {
         didSet {
             DispatchQueue.main.async { [self] in
@@ -75,12 +75,14 @@ class LLoader: UIView {
                 small(view: centerCircle)
             }
             style1.toggle()
-        } completion: { (_) in
-            if self.isAnimating {
-                self.startAnimate()
-                self.isHidden = false
-            } else {
-                self.isHidden = true
+        } completion: { [weak self] _ in
+            if self?.window != nil {
+                if self?.isAnimating ?? false {
+                    self?.startAnimate()
+                    self?.isHidden = false
+                } else {
+                    self?.isHidden = true
+                }
             }
         }
     }
