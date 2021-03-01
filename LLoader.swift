@@ -9,7 +9,7 @@ import UIKit
 
 class LLoader: UIView {
     
-    public var color = UIColor.orange
+    public var color = UIColor.red
     public var isAnimating = true {
         didSet {
             DispatchQueue.main.async { [self] in
